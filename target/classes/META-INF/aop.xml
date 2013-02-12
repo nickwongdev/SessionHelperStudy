@@ -1,0 +1,6 @@
+<aspectj>
+    <weaver options="-Xset:weaveJavaxPackages=true"/>
+    <aspects>
+        <aspect name="com.nickwongdev.sessionhelperstudy.impl.aspect.SessionHelperAspect"/>
+    </aspects>
+</aspectj>

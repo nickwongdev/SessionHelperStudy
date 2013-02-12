@@ -22,11 +22,11 @@ import org.springframework.util.Assert;
  */
 public class TestGenericSessionHelper {
 
+    private static GenericSessionHelper genericSessionHelper = new GenericSessionHelper();
+    
     @Test
     public void testGenericSessionHelper() {
         HttpServletRequest request = new MockHttpServletRequest();
-
-        GenericSessionHelper genericSessionHelper = new GenericSessionHelper();
 
         // Test UserId
         String testUserId = "user-id-1234";

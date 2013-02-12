@@ -19,41 +19,41 @@ import javax.servlet.http.HttpServletRequest;
 public class AopSessionHelper {
     public void setUserId(HttpServletRequest request, String value) {};
     public String getUserId(HttpServletRequest request) { return null; };
-    public void isSetUserId(HttpServletRequest request) {};
+    public boolean isSetUserId(HttpServletRequest request) { return false; };
     public void clearUserId(HttpServletRequest request) {};
     
     public void setSessionState(HttpServletRequest request, SessionState value) {};
     public SessionState getSessionState(HttpServletRequest request) { return null; };
-    public void isSetSessionState(HttpServletRequest request) {};
+    public boolean isSetSessionState(HttpServletRequest request) { return false; };
     public void clearSessionState(HttpServletRequest request) {};
 
     public void setAlpha(HttpServletRequest request, Alpha value) {};
     public Alpha getAlpha(HttpServletRequest request) { return null; };
-    public void isSetAlpha(HttpServletRequest request) {};
+    public boolean isSetAlpha(HttpServletRequest request) { return false; };
     public void clearAlpha(HttpServletRequest request) {};
 
     public void setBeta(HttpServletRequest request, Beta value) {};
     public Beta getBeta(HttpServletRequest request) { return null; };
-    public void isSetBeta(HttpServletRequest request) {};
+    public boolean isSetBeta(HttpServletRequest request) { return false; };
     public void clearBeta(HttpServletRequest request) {};
 
     public void setGamma(HttpServletRequest request, Gamma value) {};
     public Gamma getGamma(HttpServletRequest request) { return null; };
-    public void isSetGamma(HttpServletRequest request) {};
+    public boolean isSetGamma(HttpServletRequest request) { return false; };
     public void clearGamma(HttpServletRequest request) {};
 
     public void setDelta(HttpServletRequest request, Delta value) {};
     public Delta getDelta(HttpServletRequest request) { return null; };
-    public void isSetDelta(HttpServletRequest request) {};
+    public boolean isSetDelta(HttpServletRequest request) { return false; };
     public void clearDelta(HttpServletRequest request) {};
 
     public void setEpsilon(HttpServletRequest request, Epsilon value) {};
     public Epsilon getEpsilon(HttpServletRequest request) { return null; };
-    public void isSetEpsilon(HttpServletRequest request) {};
+    public boolean isSetEpsilon(HttpServletRequest request) { return false; };
     public void clearEpsilon(HttpServletRequest request) {};
 
     public void setZeta(HttpServletRequest request, Delta value) {};
     public Delta getZeta(HttpServletRequest request) { return null; };
-    public void isSetZeta(HttpServletRequest request) {};
+    public boolean isSetZeta(HttpServletRequest request) { return false; };
     public void clearZeta(HttpServletRequest request) {};
 }
